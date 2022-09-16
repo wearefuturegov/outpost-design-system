@@ -136,6 +136,7 @@ The tests defined in `outpost-css` should be able to run over every other librar
 - [ ] Theres a few storybook errors that have been copied accross while putting this together
 - [ ] Need to make sure each storybook is standardised!
 - [ ] get tmux script to load docs last
+- [ ] setup allll the chromatics!
 
 ### Links
 

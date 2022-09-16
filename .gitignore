@@ -8,3 +8,4 @@ storybook-static
 !.yarn/releases
 !.yarn/plugins
 .pnp.*
+.DS_Store
