@@ -1,0 +1,60 @@
+.example-button {
+    background: linear-gradient(180deg, #59285E 0%, rgba(0, 0, 0, 0.401042) 59.9%, #00FFF0 100%);
+    border-radius: 28.8194px;
+    position: relative;
+    width: 231.71px;
+    height: 83px;
+
+    font-family: 'Trebuchet MS';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23.0556px;
+    line-height: 27px;
+    /* identical to box height */
+    color: #FFFFFF;
+
+    &:before {
+        content: "";
+        position: absolute;
+        width: 186.75px;
+        height: 8.07px;
+        left: 23.63px;
+        top: 3.46px;
+        background: rgba(255, 255, 255, 0.2);
+        border-radius: 11.5278px;
+    }
+
+    &--block {
+        display: block;
+    }
+
+    &--sm {
+        width: 100px;
+    }
+
+    &--md {
+        width: 200px;
+    }
+
+    &--lg {
+        width: 300px;
+    }
+
+    &--primary {
+        border: 1px solid red;
+    }
+    &--outline {
+        border: 1px solid red;
+        background: none;
+    }
+    &--danger {
+        background: red;
+    }
+    &--link {
+        background: none;
+        text-decoration: underline;
+    }
+    &--invisible {
+        visibility: hidden;
+    }
+}

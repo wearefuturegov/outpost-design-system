@@ -2,4 +2,9 @@ ref
 node_modules
 package-lock.json
 dist
-.parcel-cache
+storybook-static
+
+.yarn/*
+!.yarn/releases
+!.yarn/plugins
+.pnp.*

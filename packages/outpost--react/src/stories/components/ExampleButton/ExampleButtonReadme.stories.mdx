@@ -1,0 +1,22 @@
+import { Meta } from '@storybook/addon-docs';
+import {ExampleButtonTemplate} from './ExampleButton.template'
+
+<Meta title="Examples/Example Button/Intro" component={ExampleButtonTemplate} />
+
+<style>
+  {`
+    .example {
+      border: 1px solid red;
+    }
+  `}
+</style>
+
+# Example Button
+
+This is the readme page for the Example button, since its mdx we can do fun things:
+
+<code>ExampleButton.stories.mdx</code>
+
+<div className="example">
+<ExampleButtonTemplate label="Text" />
+</div>

@@ -1,34 +1,34 @@
 {
-  "name": "@outpost/design-system",
-  "version": "1.0.0",
-  "description": "Outpost platform design system",
-  "source": "src/index.js",
-  "main": "dist/main.cjs",
-  "module": "dist/main.mjs",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "watch": "parcel watch",
-    "build": "parcel build"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/wearefuturegov/outpost-design-system.git"
-  },
-  "keywords": [
-    "design",
-    "system",
-    "outpost",
-    "open",
-    "referral",
-    "uk"
-  ],
-  "author": "TPXImpact",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/wearefuturegov/outpost-design-system/issues"
-  },
-  "homepage": "https://github.com/wearefuturegov/outpost-design-system#readme",
-  "devDependencies": {
-    "parcel": "^2.7.0"
-  }
+	"name": "@outpost/design-system",
+	"packageManager": "yarn@3.2.3",
+	"version": "1.0.0",
+	"description": "Outpost platform design system",
+	"main": "index.js",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/wearefuturegov/outpost-design-system.git"
+	},
+	"private": true,
+	"workspaces": [
+		"packages/outpost--css",
+		"packages/outpost--react",
+		"packages/outpost--view-components",
+		"packages/outpost--web-components",
+		"packages/outpost--primitives",
+		"packages/outpost--docs"
+	],
+	"keywords": [
+		"design",
+		"system",
+		"outpost",
+		"open",
+		"referral",
+		"uk"
+	],
+	"author": "TPXImpact",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/wearefuturegov/outpost-design-system/issues"
+	},
+	"homepage": "https://github.com/wearefuturegov/outpost-design-system#readme"
 }
