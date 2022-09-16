@@ -29,7 +29,7 @@ As a bonus it also includes a storybook with a docsPage detailing all the inform
 
 ### TODO
 
-- [] export `custom-viewports.js` file from here and use in the other storybooks
+- [ ] export `custom-viewports.js` file from here and use in the other storybooks
 
 ---
 
@@ -45,9 +45,9 @@ Contains all the UI/UX and static views for the components, if you're needing pl
 
 ### TODO
 
-- [] Import Design tokens
-- [] Get the scss working!!!
-- [] export the css
+- [ ] Import Design tokens
+- [ ] Get the scss working!!!
+- [ ] export the css
 
 ---
 
@@ -63,9 +63,9 @@ This is the react versions of the components
 
 ### TODO
 
-- [] match the markup from `outpost--css`
-- [] import the CSS
-- [] standardise on storybook setups for the same components
+- [ ] match the markup from `outpost--css`
+- [ ] import the CSS
+- [ ] standardise on storybook setups for the same components
 
 ---
 
@@ -130,12 +130,12 @@ The tests defined in `outpost-css` should be able to run over every other librar
 
 ### TODO's
 
-- [] Export everything to npm packages!
-- [] Linting
-- [] Testing
-- [] Theres a few storybook errors that have been copied accross while putting this together
-- [] Need to make sure each storybook is standardised!
-- [] get tmux script to load docs last
+- [ ] Export everything to npm packages!
+- [ ] Linting
+- [ ] Testing
+- [ ] Theres a few storybook errors that have been copied accross while putting this together
+- [ ] Need to make sure each storybook is standardised!
+- [ ] get tmux script to load docs last
 
 ### Links
 
