@@ -1,4 +1,4 @@
-import {ExampleButtonTemplate} from './ExampleButton.template'
+import {ExampleButtonTemplate} from '../../../components/example-button/storybook/ExampleButton.template'
 
 export default {
   title: 'Examples/Example Button/Features'

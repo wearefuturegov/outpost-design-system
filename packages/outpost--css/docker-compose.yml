@@ -1,0 +1,6 @@
+version: '3'
+services:
+  storybook:
+    ports:
+      - "6003:6003"
+    build: .

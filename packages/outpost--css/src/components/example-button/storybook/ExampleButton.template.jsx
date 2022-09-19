@@ -13,7 +13,7 @@ export const ExampleButtonTemplate = ({
       <button
         disabled={disabled}
         className={clsx(
-          'btn',
+          'example-button',
           variant && `${variant}`,
           size && `${size}`,
           fullWidth && 'example-button--block',
