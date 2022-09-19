@@ -4,9 +4,13 @@
   "private": true,
   "sass": "index.scss",
   "dependencies": {
+    "@reach/alert": "^0.17.0",
+    "@reach/dialog": "^0.17.0",
+    "@reach/tooltip": "^0.17.0",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "colors": "^1.4.0",
     "fs-extra": "^10.1.0",
     "globby": "^13.1.2",
     "react": "^18.2.0",
@@ -21,7 +25,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "storybook": "start-storybook -p 6003 -s public",
-    "build-storybook": "build-storybook -s public"
+    "build-storybook": "build-storybook -s public",
+    "generate": "node ./bin/generate-component"
   },
   "browserslist": {
     "production": [
