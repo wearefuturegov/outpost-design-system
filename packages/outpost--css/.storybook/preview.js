@@ -1,5 +1,5 @@
 // import '../src/components/components.scss'
-import '../css/components.css'
+import '../dist/css/components.css'
 import renderToHTML from '../src/stories/helpers/code-snippet-html-helper'
 import customViewports from '../src/stories/helpers/custom-viewports'
 import { DocsPage, DocsContainer } from '@storybook/addon-docs';

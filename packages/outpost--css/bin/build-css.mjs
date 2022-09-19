@@ -8,7 +8,7 @@ const {mkdirp, readFile, writeFile} = fsExtra
 
 
 const inDir = 'src'
-const outDir = 'css'
+const outDir = 'dist/css'
 const bundleNames = {
   'index.scss': 'outpost--css'
 }
