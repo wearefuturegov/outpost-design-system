@@ -1,7 +1,10 @@
-import {ExampleButtonTemplate} from '../../../components/example-button/storybook/ExampleButton.template'
 
-export default {
-  title: 'Examples/Example Button',
+
+export const ExampleButtonTitle = 'Example Button';
+export const ExampleButtonPathRoot = 'Examples';
+
+export const ExampleButtonConfig = {
+  title: `${ExampleButtonPathRoot}/${ExampleButtonTitle}`,
   parameters: {
     design: {
       type: 'figma',
@@ -74,12 +77,3 @@ export default {
   }
 }
 
-
-
-
-export const Playground = ExampleButtonTemplate.bind({})
-Playground.args = {
-  closeBtn: false,
-  focusElement: false,
-  focusAllElements: false
-}
