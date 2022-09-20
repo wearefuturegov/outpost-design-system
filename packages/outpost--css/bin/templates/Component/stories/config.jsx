@@ -1,5 +1,5 @@
-export const title = 'Alert Static';
-export const pathRoot = 'Scout'; 
+export const title = 'Component';
+export const pathRoot = 'Template'; 
 
 export const config = {
   title: `${pathRoot}/${title}`,
