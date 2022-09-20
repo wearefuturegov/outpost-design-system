@@ -1,0 +1,17 @@
+.a {
+  color: $link;
+
+  /* prevent long links from overflowing */
+  word-wrap: anywhere;
+
+  &:hover {
+    text-decoration: none;
+  }
+  &:focus {
+    background: $focus;
+    outline: 3px solid $focus;
+  }
+  &:active {
+    color: $text;
+  }
+}
