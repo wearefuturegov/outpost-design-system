@@ -1,17 +1,17 @@
 import React from 'react'
 import clsx from 'clsx'
 
-export const AlertTemplate = ({
+export const Template = ({
     children,
     link,
     linkText
   }) => (
     <>
       <div className={clsx(
-          'styledAlert'
+          '.'
         )}>
         {children}
-        {link && <a className="styledLink" to={link}>{linkText}</a>}
+        {link && <a className="." to={link}>{linkText}</a>}
       </div>
     </>
   )

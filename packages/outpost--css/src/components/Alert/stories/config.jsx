@@ -1,4 +1,4 @@
-export const title = 'Alert Static';
+export const title = 'Alert';
 export const pathRoot = 'Components'; 
 
 export const config = {
@@ -6,7 +6,7 @@ export const config = {
   parameters: {
     design: {
       type: 'figma',
-      url: 'https://www.figma.com/file/tVVtW6tHgghun8aY261M5z/Outpost-platform-(and-Scout-etc)?node-id=133%3A2163'
+      url: 'https://www.figma.com/file/tVVtW6tHgghun8aY261M5z/Outpost-platform-(and-Scout-etc)?node-id=133%3A2162'
     },
     layout: 'padded'
   },

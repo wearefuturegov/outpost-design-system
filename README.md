@@ -2,6 +2,20 @@
 
 **NB this is a mono-repo!**
 
+## Getting started
+
+```sh
+yarn
+./load-all.sh
+```
+
+then
+
+```sh
+cd packages/outpost--docs
+yarn storybook
+```
+
 ## Ports
 
 | package               | command | port |
@@ -46,8 +60,8 @@ Contains all the UI/UX and static views for the components, if you're needing pl
 ### TODO
 
 - [ ] Import Design tokens
-- [ ] Get the scss working!!!
 - [ ] export the css
+- [ ] build isn't working ideally - css is compiled manually need watch scripts adding
 
 ---
 
@@ -133,9 +147,6 @@ The tests defined in `outpost-css` should be able to run over every other librar
 - [ ] Export everything to npm packages!
 - [ ] Linting
 - [ ] Testing
-- [ ] Theres a few storybook errors that have been copied accross while putting this together
-- [ ] Need to make sure each storybook is standardised!
-- [ ] get tmux script to load docs last
 - [ ] setup allll the chromatics!
 
 ### Links

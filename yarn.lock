@@ -2078,6 +2078,26 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@etchteam/storybook-addon-status@npm:^4.2.1":
+  version: 4.2.1
+  resolution: "@etchteam/storybook-addon-status@npm:4.2.1"
+  dependencies:
+    "@storybook/addons": ^6.2.9
+    "@storybook/api": ^6.2.9
+    "@storybook/client-logger": ^6.2.9
+    "@storybook/components": ^6.2.9
+    "@storybook/core-events": ^6.2.9
+    "@storybook/theming": ^6.2.9
+    core-js: ^3.0.1
+    lodash: ^4.17.21
+    memoizerific: ^1.11.3
+    util-deprecate: ^1.0.2
+  peerDependencies:
+    react: ^16.8.3 || ^17.0.2
+  checksum: c3fdf45bb3b709177aedd87084a0024177eb158235059b830dc6c8831ec8e147228abcc13c76b5ca16431cd65fbebf851aff14f5d528cef435e89eb9bf590318
+  languageName: node
+  linkType: hard
+
 "@figspec/components@npm:^1.0.0":
   version: 1.0.1
   resolution: "@figspec/components@npm:1.0.1"
@@ -3404,7 +3424,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@storybook/addons@npm:6.5.12, @storybook/addons@npm:^6.5.9":
+"@storybook/addons@npm:6.5.12, @storybook/addons@npm:^6.2.9, @storybook/addons@npm:^6.5.9":
   version: 6.5.12
   resolution: "@storybook/addons@npm:6.5.12"
   dependencies:
@@ -3426,7 +3446,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@storybook/api@npm:6.5.12, @storybook/api@npm:^6.1.21, @storybook/api@npm:^6.5.9":
+"@storybook/api@npm:6.5.12, @storybook/api@npm:^6.1.21, @storybook/api@npm:^6.2.9, @storybook/api@npm:^6.5.9":
   version: 6.5.12
   resolution: "@storybook/api@npm:6.5.12"
   dependencies:
@@ -3637,7 +3657,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@storybook/client-logger@npm:6.5.12, @storybook/client-logger@npm:^6.4.0":
+"@storybook/client-logger@npm:6.5.12, @storybook/client-logger@npm:^6.2.9, @storybook/client-logger@npm:^6.4.0":
   version: 6.5.12
   resolution: "@storybook/client-logger@npm:6.5.12"
   dependencies:
@@ -3647,7 +3667,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@storybook/components@npm:6.5.12, @storybook/components@npm:^6.1.21, @storybook/components@npm:^6.5.9":
+"@storybook/components@npm:6.5.12, @storybook/components@npm:^6.1.21, @storybook/components@npm:^6.2.9, @storybook/components@npm:^6.5.9":
   version: 6.5.12
   resolution: "@storybook/components@npm:6.5.12"
   dependencies:
@@ -3765,7 +3785,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@storybook/core-events@npm:6.5.12":
+"@storybook/core-events@npm:6.5.12, @storybook/core-events@npm:^6.2.9":
   version: 6.5.12
   resolution: "@storybook/core-events@npm:6.5.12"
   dependencies:
@@ -4338,7 +4358,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@storybook/theming@npm:6.5.12":
+"@storybook/theming@npm:6.5.12, @storybook/theming@npm:^6.2.9":
   version: 6.5.12
   resolution: "@storybook/theming@npm:6.5.12"
   dependencies:
@@ -7898,6 +7918,13 @@ __metadata:
   version: 3.25.1
   resolution: "core-js-pure@npm:3.25.1"
   checksum: 0123131ec7ab3a1e56f0b4df4ae659de03d9c245ce281637d4d0f18f9839d8e0cfbfa989bd577ce1b67826f889a7dcc734421f697cf1bbe59f605f29c537a678
+  languageName: node
+  linkType: hard
+
+"core-js@npm:^3.0.1":
+  version: 3.25.2
+  resolution: "core-js@npm:3.25.2"
+  checksum: e93c6c645d44d98973efb07750975552ad405f080f5a563a99972ff6b2c5c6ee25705f55accd363f5dccd51e9e5f56be25e2be6c14a7294da65763e0e5659c02
   languageName: node
   linkType: hard
 
@@ -14658,6 +14685,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "outpost--css@workspace:packages/outpost--css"
   dependencies:
+    "@etchteam/storybook-addon-status": ^4.2.1
     "@koddsson/postcss-sass": ^5.0.1
     "@mdx-js/react": ^1.6.22
     "@reach/alert": ^0.17.0

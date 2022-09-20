@@ -2,14 +2,15 @@ import { Template } from './template'
 import { config } from './config'
 
 const component = {
-  ...config
+  ...config,
 }
 
 export default component
 
 // the default playground area to view stories
-// export const Playground = Template.bind({})
-// Playground.args = {
-//   children: <>Child jsx test</>
-// }
-
+export const Playground = Template.bind({})
+Playground.args = {
+  closeBtn: false,
+  focusElement: false,
+  focusAllElements: false
+}

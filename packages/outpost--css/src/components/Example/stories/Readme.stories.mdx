@@ -1,8 +1,10 @@
 import { Meta } from '@storybook/addon-docs';
-import { ExampleButtonTemplate } from './ExampleButtonTemplate'
-import { ExampleButtonPathRoot, ExampleButtonTitle } from './ExampleButtonConfig'
+import { Template } from './template'
+import { pathRoot, title } from './config'
 
-<Meta title={`${ExampleButtonPathRoot}/${ExampleButtonTitle}/Intro`} component={ExampleButtonTemplate} />
+<Meta title={`${pathRoot}/${title}/Intro`} component={Template} />
+
+# Button
 
 <style>
   {`
@@ -18,9 +20,14 @@ This is the readme page for the Example button, since its mdx we can do fun thin
 
 <code>ExampleButton.stories.mdx</code>
 
+<br />
+
 <div className="example">
-<ExampleButtonTemplate label="Text" />
+<Template label="Text" />
 </div>
+
+
+<br />
 
 
 ## Story structure
@@ -29,3 +36,7 @@ This is the readme page for the Example button, since its mdx we can do fun thin
 * Features - Use this to highlight certain features components have
 * Standards - if there are any standard configurations we use for things then inlude them in this section
 
+
+## Badge options
+
+* "beta", "deprecated", "stable" & "releaseCandidate"
