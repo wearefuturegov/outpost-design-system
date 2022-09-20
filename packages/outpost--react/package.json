@@ -17,7 +17,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "storybook": "start-storybook -p 6004 -s public",
-    "build-storybook": "build-storybook -s public"
+    "build-storybook": "build-storybook -s public",
+    "chromatic": "chromatic"
   },
   "browserslist": {
     "production": [
@@ -57,6 +58,7 @@
     "storybook-addon-designs": "^6.3.1",
     "storybook-color-picker": "^3.0.2",
     "style-loader": "^3.3.1",
-    "webpack": "^5.74.0"
+    "webpack": "^5.74.0",
+    "chromatic": "^6.9.0"
   }
 }

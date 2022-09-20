@@ -1,34 +1,33 @@
 {
-	"name": "@outpost/design-system",
-	"packageManager": "yarn@3.2.3",
-	"version": "1.0.0",
-	"description": "Outpost platform design system",
-	"main": "index.js",
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/wearefuturegov/outpost-design-system.git"
-	},
-	"private": true,
-	"workspaces": [
-		"packages/outpost--css",
-		"packages/outpost--react",
-		"packages/outpost--view-components",
-		"packages/outpost--web-components",
-		"packages/outpost--primitives",
-		"packages/outpost--docs"
-	],
-	"keywords": [
-		"design",
-		"system",
-		"outpost",
-		"open",
-		"referral",
-		"uk"
-	],
-	"author": "TPXImpact",
-	"license": "ISC",
-	"bugs": {
-		"url": "https://github.com/wearefuturegov/outpost-design-system/issues"
-	},
-	"homepage": "https://github.com/wearefuturegov/outpost-design-system#readme"
+  "name": "@outpost/design-system",
+  "packageManager": "yarn@3.2.3",
+  "version": "1.0.0",
+  "description": "Outpost platform design system",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wearefuturegov/outpost-design-system.git"
+  },
+  "private": true,
+  "workspaces": [
+    "packages/outpost--css",
+    "packages/outpost--react",
+    "packages/outpost--view-components",
+    "packages/outpost--web-components",
+    "packages/outpost--primitives",
+    "packages/outpost--docs"
+  ],
+  "keywords": [
+    "design",
+    "system",
+    "outpost",
+    "open",
+    "referral",
+    "uk"
+  ],
+  "author": "TPXImpact",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wearefuturegov/outpost-design-system/issues"
+  },
+  "homepage": "https://github.com/wearefuturegov/outpost-design-system#readme"
 }

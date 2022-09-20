@@ -13,10 +13,12 @@
     "@storybook/html": "^6.5.12",
     "@storybook/manager-webpack4": "^6.5.12",
     "@storybook/testing-library": "^0.0.13",
-    "babel-loader": "^8.2.5"
+    "babel-loader": "^8.2.5",
+    "chromatic": "^6.9.0"
   },
   "scripts": {
     "storybook": "start-storybook -p 6001",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "chromatic": "chromatic"
   }
 }

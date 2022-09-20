@@ -26,7 +26,8 @@
     "eject": "react-scripts eject",
     "storybook": "start-storybook -p 6003 -s public",
     "build-storybook": "build-storybook -s public",
-    "generate": "node ./bin/generate-component"
+    "generate": "node ./bin/generate-component",
+    "chromatic": "chromatic"
   },
   "browserslist": {
     "production": [
@@ -59,6 +60,7 @@
     "@whitespace/storybook-addon-html": "^5.0.0",
     "autoprefixer": "^10.4.11",
     "babel-plugin-named-exports-order": "^0.0.2",
+    "chromatic": "^6.9.0",
     "clsx": "^1.2.1",
     "css-loader": "^6.7.1",
     "html-entities": "~1.4.0",
