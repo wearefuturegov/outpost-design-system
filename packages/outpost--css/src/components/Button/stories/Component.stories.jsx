@@ -8,8 +8,8 @@ const component = {
 export default component
 
 // the default playground area to view stories
-// export const Playground = Template.bind({})
-// Playground.args = {
-//   children: <>Child jsx test</>
-// }
+export const Playground = Template.bind({})
+Playground.args = {
+  children: <>Button text</>
+}
 

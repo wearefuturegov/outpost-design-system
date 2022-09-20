@@ -3,6 +3,7 @@
   "packageManager": "yarn@3.2.3",
   "version": "1.0.0",
   "description": "Outpost platform design system",
+  "main": "index.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/wearefuturegov/outpost-design-system.git"

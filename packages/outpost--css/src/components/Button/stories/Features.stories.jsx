@@ -8,5 +8,14 @@ export const Disabled = Template.bind({})
 Disabled.storyName = 'Disabled'
 Disabled.args = {
   label: 'Disabled',
-  disabled: true
+  disabled: true,
+  children: <>:disabled Button</>
+}
+
+export const LinkButton = Template.bind({})
+LinkButton.storyName = 'Button as A'
+LinkButton.args = {
+  label: 'Button as A',
+  element: 'link',
+  children: <>Link Button</>
 }

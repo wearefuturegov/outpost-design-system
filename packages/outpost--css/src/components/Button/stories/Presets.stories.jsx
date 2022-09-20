@@ -8,26 +8,36 @@ export const Button = Template.bind({})
 Button.storyName = 'Button'
 Button.args = {
   label: 'Button',
-  disabled: true
+  disabled: false,
+  solid: false,
+  children: <>Button</>
 }
 
 export const SolidButton = Template.bind({})
-SolidButton.storyName = 'Solid button'
+SolidButton.storyName = 'Solid'
 SolidButton.args = {
   label: 'Solid button',
-  disabled: true
+  disabled: true,
+  solid: true,
+  children: <>Solid Button</>
 }
 
 export const LinkButton = Template.bind({})
-LinkButton.storyName = 'Link button'
+LinkButton.storyName = 'Link'
 LinkButton.args = {
   label: 'Link button',
-  disabled: true
+  disabled: true,
+  link: true,
+  element: 'link',
+  children: <>Solid Button</>
 }
 
 export const LinkButtonPrimary = Template.bind({})
-LinkButtonPrimary.storyName = 'Link button primary'
+LinkButtonPrimary.storyName = 'Primary'
 LinkButtonPrimary.args = {
   label: 'Link button primary',
-  disabled: true
+  disabled: true,
+  primary: true,
+  link: true,
+  children: <>Solid Button</>
 }

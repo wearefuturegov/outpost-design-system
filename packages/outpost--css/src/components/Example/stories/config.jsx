@@ -25,10 +25,10 @@ export const config = {
       ], // values
       control: {
         type: 'select',
-        labels: ['default', 'primary', 'outline', 'danger', 'link']
+        labels: ['default', 'primary', 'outline', 'danger', 'link', 'invisible']
       },
       table: {
-        category: 'CSS'
+        category: 'CSS',
       }
     },
     size: {
@@ -43,7 +43,6 @@ export const config = {
       }
     },
     label: {
-      defaultValue: 'Button',
       type: 'string',
       name: 'label',
       description: 'string',
@@ -52,24 +51,24 @@ export const config = {
       }
     },
     disabled: {
-      defaultValue: false,
       control: {type: 'boolean'},
       table: {
-        category: 'Interactive'
+        category: 'Interactive',
+        defaultValue: { disabled: false }
       }
     },
     fullWidth: {
-      defaultValue: false,
       control: {type: 'boolean'},
       table: {
-        category: 'CSS'
+        category: 'CSS',
+        defaultValue: { fullWidth: false }
       }
     },
     selected: {
-      defaultValue: false,
       control: {type: 'boolean'},
       table: {
-        category: 'CSS'
+        category: 'CSS',
+        defaultValue: { fullWidth: false }
       }
     },
   }

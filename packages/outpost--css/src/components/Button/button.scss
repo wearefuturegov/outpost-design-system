@@ -1,3 +1,76 @@
-.component {
- 
+.btn {
+  display: inline-block;
+  text-decoration: none;
+  color: $link;
+  padding: 15px 45px;
+  text-align: center;
+  border: 3px solid $link;
+  font-size: 1rem;
+  background: none;
+  font-weight: bold;
+  cursor: pointer;
+  width: 100%;
+  &:focus{
+      outline: 3px solid $focus;
+  }
+  &:hover{
+      color: $linkHover;
+      border-color: $linkHover;
+  }
+  &:active{
+      color: $linkActive;
+      border-color: $linkActive;
+  }
+  @media screen and (min-width: $breakpointM) {
+      width: inherit;
+  }
+  &:disabled{
+      background: $text;
+      pointer-events: none;
+      border-color: $text;
+  }
+
+  &--solid {
+    background: $link;
+    color: $white;
+    &:hover {
+      color: $white;
+      background: $linkHover;
+    }
+    &:active {
+      color: $white;
+      background: $linkActive;
+    }
+  }
+
+  &--link {
+    //nothing special here yet..
+    border: 0px;
+  }
+
+
+  &--primary {
+    color: $primaryText;
+    background: $primary;
+    border: 0;
+    border-bottom: 4px solid $primaryCompanion;
+    &:hover {
+      background: $primaryHover;
+      color: $primaryHoverText;
+      border-bottom: 4px solid $primaryCompanion;
+    }
+    &:active {
+      background: $primaryHover;
+      border-bottom: 0;
+      border-top: 4px solid $primaryCompanion;
+    }
+    &:focus {
+      outline: none;
+      background-color: $focus;
+      border-bottom: 4px solid $primaryText;
+      border-top: none;
+      color: $primaryText;
+    }
+  }
+
 }

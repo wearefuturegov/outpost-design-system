@@ -49,7 +49,7 @@ export const globalTypes = {
     toolbar: {
       icon: 'circlehollow',
       items: [...themes, 'all'],
-      showName: true
+      title: 'Theme',
     }
   }
 }
@@ -57,8 +57,8 @@ export const globalTypes = {
 export const decorators = [
   (Story, context) => {
     return (
-      <div class="theme-wrap">
-        {themes.map(theme => {
+      <div className="theme-wrap">
+        {themes.map((theme,i) => {
           if (context.globals.theme === theme || context.globals.theme === 'all') {
             return (
               <div

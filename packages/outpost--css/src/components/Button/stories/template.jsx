@@ -3,15 +3,22 @@ import clsx from 'clsx'
 
 export const Template = ({
     children,
+    solid,
     link,
-    linkText
-  }) => (
+    primary,
+    element
+  }) => {
+    const Element = (element === 'link') ? `a` : `div`;
+    return (
     <>
-      <div className={clsx(
-          '.'
+      <Element className={clsx(
+          'btn',
+          solid && 'btn--solid',
+          link && 'btn--link',
+          primary && 'btn--primary',
         )}>
         {children}
-        {link && <a className="." to={link}>{linkText}</a>}
-      </div>
+      </Element>
     </>
   )
+}
